@@ -3,7 +3,7 @@ The 1973 game remake as a HTML file
 
 A grid-based reimagining of the classic 1972 game **Hunt the Wumpus** by Gregory Yob. This version is playable in the browser, with a customizable game board, hazards, and arrow-shooting mechanics!
 
-![Game Screenshot](release\gameplay.png)
+![Game Screenshot](https://github.com/Yinnotayl/Hunt-The-Wumpus-Game-Remake-/blob/main/release/gameplay.png?raw=true)
 *(Note: Actual gameplay visuals may differ. See live preview in your browser.)*
 
 ---
