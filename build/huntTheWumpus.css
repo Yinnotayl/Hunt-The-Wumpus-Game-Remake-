@@ -1,0 +1,125 @@
+/* Main content */
+body {
+    background-color: white;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Default: pointer for all inputs */
+input {
+    cursor: pointer;
+}
+
+/* Override for text-based inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+input[type="number"] {
+    cursor: text;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+/* Custom arrangement */
+.hstack {
+    display: flex;
+    flex-direction: row;
+    /* horizontal */
+    gap: 10px;
+    /* space between items */
+}
+
+.vstack {
+    display: flex;
+    flex-direction: column;
+    /* vertical */
+    gap: 10px;
+    /* space between items */
+}
+
+
+/* Game elements */
+.game-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(5, 50px);
+    gap: 5px;
+} */
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Change 6 to match gridWidth */
+    gap: 2px;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ccc;
+}
+
+/* Status Box Styling */
+.status-box {
+    border: 2px solid #333;
+    padding: 10px;
+    width: 300px;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+}
+
+.status-box h3 {
+    margin-top: 0;
+}
+
+.status-box ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+
+.red {
+    background-color: red;
+}
+
+.wumpus {
+  background-color: green;
+}
+
+.hole {
+  background-color: darkgray;
+}
+
+.bat {
+  background-color: tan;
+}
+
+.arrow {
+  background-color: blue;
+}
